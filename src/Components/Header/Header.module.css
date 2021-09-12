@@ -1,0 +1,72 @@
+.Header {
+  width: 100%;
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header img {
+  cursor: pointer;
+}
+.Header .Links {
+  display: flex;
+  align-items: center;
+}
+.Header .Links .Link {
+  margin-left: 85px;
+  cursor: pointer;
+  font-size: 25px;
+  line-height: 37px;
+  color: #404242;
+  transition: all ease 0.3s;
+}
+.Header .Links .Link:after {
+  content: " ";
+  display: inline-block;
+  opacity: 0;
+  width: 48px;
+  height: 6px;
+  background: #FEC62D;
+  border-radius: 21px;
+  transition: all ease 0.8s;
+  position: absolute;
+  bottom: -5px;
+  left: calc(50% - 24px);
+}
+.Header .Links .Link:nth-child(1) {
+  margin-left: 0;
+}
+.Header .Links .ActiveLink {
+  color: #58A9A5;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  position: relative;
+}
+.Header .Links .ActiveLink:after {
+  content: " ";
+  display: inline-block;
+  width: 48px;
+  opacity: 1;
+  height: 6px;
+  background: #FEC62D;
+  border-radius: 21px;
+  position: absolute;
+  bottom: -5px;
+  left: calc(50% - 24px);
+}
+.Header .Button {
+  outline: none;
+  border: none;
+  padding: 22px 88px;
+  background: #58A9A5;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #FFF;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

@@ -1,0 +1,44 @@
+.AboutUs {
+  width: 100%;
+  display: flex;
+  margin-bottom: 240px;
+}
+.AboutUs .ContainerNumbers {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.AboutUs .Info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  padding: 52px 135px;
+  background: #CCF0E6;
+}
+.AboutUs .Info .Text p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  color: #486958;
+}
+.AboutUs .Info .Text p:last-child {
+  opacity: 0.6;
+  padding-top: 50px;
+  font-style: italic;
+}
+.AboutUs .Info .Numbers h1 {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+  color: #58A9A5;
+}
+.AboutUs .Info .Numbers h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  max-width: 169px;
+  color: #58A9A5;
+}
+
+/*# sourceMappingURL=AboutUs.module.css.map */

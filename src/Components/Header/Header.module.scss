@@ -1,0 +1,82 @@
+.Header {
+  width: 100%;
+
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    cursor: pointer;
+  }
+  .Links {
+    display: flex;
+    align-items: center;
+
+    .Link {
+      margin-left: 85px;
+      cursor: pointer;
+      font-size: 25px;
+      line-height: 37px;
+      color: #404242;;
+      transition: all ease .3s;
+
+      &:after {
+        content: ' ';
+        display: inline-block;
+        opacity: 0;
+        width: 48px;
+        height: 6px;
+        background: #FEC62D;
+        border-radius: 21px;
+        transition: all ease .8s;
+
+        position: absolute;
+        bottom: -5px;
+        left: calc(50% - 24px);
+      }
+
+      &:nth-child(1) {
+        margin-left: 0;
+      }
+    }
+
+    .ActiveLink {
+      color: #58A9A5;
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 37px;
+      position: relative;
+
+      &:after {
+        content: ' ';
+        display: inline-block;
+        width: 48px;
+        opacity: 1;
+        height: 6px;
+        background: #FEC62D;
+        border-radius: 21px;
+
+        position: absolute;
+        bottom: -5px;
+        left: calc(50% - 24px);
+      }
+    }
+  }
+
+  .Button {
+    outline: none;
+
+    border: none;
+    padding: 22px 88px;
+    background: #58A9A5;
+    border-radius: 15px;
+
+    cursor: pointer;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+  }
+}

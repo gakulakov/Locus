@@ -1,0 +1,35 @@
+.MainAd {
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 105px;
+
+  .Info {
+
+    h1 {
+      font-weight: 800;
+      font-size: 70px;
+      line-height: 105px;
+      max-width: 674px;
+
+      color: #1C2323;
+    }
+
+    p {
+      max-width: 743px;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 45px;
+      margin-bottom: 50px;
+
+      color: #404242;
+    }
+
+  }
+
+  .Img {
+    max-width: 700px;
+  }
+}

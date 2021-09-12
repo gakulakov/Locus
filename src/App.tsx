@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import classes from './App.module.scss';
+import {Header} from "./Components/Header/Header";
+import {MainAd} from "./Components/MainAd/MainAd";
+import {Intermedia} from "./Components/Intermedia/Intermedia";
+import {VideoBlock} from "./Components/VideoBlock/VideoBlock";
+import {OurMission} from "./Components/OurMission/OurMission";
+import {ProjectsBlock} from "./Components/ProjectsBlock/ProjectsBlock";
+import {LogosBlock} from "./Components/LogosBlock/LogosBlock";
+import {AboutUs} from "./Components/AboutUs/AboutUs";
+import {ContactUs} from "./Components/ContactUs/ContactUs";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className={classes.App}>
+            <Header/>
+            <MainAd/>
+            <Intermedia title={'How it works'} value={'Spice up your space even simpler than you think'}/>
+            <VideoBlock />
+            <OurMission />
+            <Intermedia title={'Our project'} value={'Introducing our first official project'}/>
+            <ProjectsBlock />
+            <Intermedia title={'Testimonial'}/>
+            <LogosBlock />
+            <AboutUs />
+            <ContactUs />
+        </div>
+    );
 }
 
 export default App;

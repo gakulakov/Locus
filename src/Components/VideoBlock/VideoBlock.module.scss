@@ -1,0 +1,47 @@
+.VideoBlock {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 71px;
+
+
+  .Mock {
+    background: url(../../Assets/images/VideoPreview.png) no-repeat fixed;
+    background-size: 90%;
+
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    height: 350px;
+    object-fit: none;
+  }
+
+  .About {
+    background: #CCF0E6;
+    border-radius: 0 10px 10px 0;
+    padding:70px 106px 0 115px;
+    position: relative;
+
+    p {
+      width: 328px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      max-width: 328px;
+
+      color: #486958;
+    }
+
+    h3 {
+      padding-top: 41px;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 30px;
+      /* identical to box height */
+
+
+      color: #486958;
+
+      cursor: pointer;
+    }
+  }
+}

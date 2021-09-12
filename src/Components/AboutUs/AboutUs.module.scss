@@ -1,0 +1,61 @@
+.AboutUs {
+  width: 100%;
+  display: flex;
+
+  margin-bottom: 240px;
+
+  .ContainerNumbers {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
+  }
+  .Info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    padding: 52px 135px;
+    background: #CCF0E6;
+
+    .Text {
+      p {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 37px;
+
+        color: #486958;
+
+        &:last-child {
+          opacity: 0.6;
+          padding-top: 50px;
+          font-style: italic;
+        }
+      }
+    }
+
+    .Numbers {
+      h1 {
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 105px;
+
+        color: #58A9A5;
+      }
+
+      h3 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 45px;
+        max-width: 169px;
+
+
+        color: #58A9A5;
+
+      }
+    }
+  }
+
+
+}

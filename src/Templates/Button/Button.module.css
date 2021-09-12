@@ -2,22 +2,17 @@
   border: none;
   cursor: pointer;
   padding: 22px 86px;
-
   font-weight: bold;
   font-size: 25px;
   line-height: 37px;
   /* identical to box height */
-
-
   color: #FFFFFF;
-
   background: #58A9A5;
   border-radius: 20px 20px 20px 0;
-  transition: all ease .5s;
-
-
-  &:hover {
-    border-radius: 20px 0 20px 20px;
-
-  }
+  transition: all ease 0.5s;
 }
+.Button:hover {
+  border-radius: 20px 0 20px 20px;
+}
+
+/*# sourceMappingURL=Button.module.css.map */

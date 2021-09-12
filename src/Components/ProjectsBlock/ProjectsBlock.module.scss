@@ -1,0 +1,42 @@
+.ProjectsBlock {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 94px;
+  padding-bottom: 130px;
+
+  .Info {
+
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+
+    color: #58A9A5;
+  }
+  p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 453px;
+
+    color: #486958;
+  }
+
+
+  .ImageCenter {
+    border-radius: 50%;
+    margin-bottom: 35px;
+
+  }
+
+  .Images {
+    border-radius: 0 0 225px 225px;
+    margin-top: 35px;
+  }
+}

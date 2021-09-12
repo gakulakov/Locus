@@ -1,0 +1,54 @@
+.ContactUs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 334px;
+}
+.ContactUs .Left h1 {
+  width: 398px;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+  text-align: left;
+  /* identical to box height */
+  color: #1C2323;
+}
+.ContactUs .Left p {
+  max-width: 398px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  color: #486958;
+}
+.ContactUs .Right {
+  width: 100%;
+  margin-left: 104px;
+  border: 1px solid #486958;
+  padding: 0 54px;
+}
+.ContactUs .Right .InputContainer {
+  display: flex;
+  flex-direction: column;
+}
+.ContactUs .Right .InputContainer input {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid;
+  padding-bottom: 25px;
+  margin-top: 57px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  color: #486958;
+}
+.ContactUs .Right .InputContainer input:last-child {
+  border: none;
+  margin-bottom: 20px;
+}
+.ContactUs .Right .ButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 35px;
+}
+
+/*# sourceMappingURL=ContactUs.module.css.map */

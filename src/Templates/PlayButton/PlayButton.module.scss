@@ -1,0 +1,50 @@
+.PlayButton {
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  position: absolute;
+  left: -50px;
+  bottom: 54px;
+
+  cursor: pointer;
+
+
+  &:before {
+    z-index: 1;
+    content: ' ';
+    width: 120px;
+    height: 120px;
+    background: #FFF;
+    display: inline-block;
+    opacity: 0.4;
+    border-radius: 50%;
+    transition: all ease .5s;
+
+    position: absolute;
+  }
+
+  &:hover {
+    &:before {
+      z-index: 1;
+      content: ' ';
+      transform: scale(1.2);
+      width: 120px;
+      height: 120px;
+      background: #fff;
+      display: inline-block;
+      opacity: 0.4;
+      border-radius: 50%;
+
+      position: absolute;
+    }
+  }
+  img {
+    padding-left: 10px;
+    z-index: 10;
+  }
+}

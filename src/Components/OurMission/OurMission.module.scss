@@ -1,0 +1,35 @@
+.OurMission {
+  margin-top: 150px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  .Info {
+    max-width: 708px;
+    padding-left: 116px;
+
+    h1 {
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 60px;
+      max-width: 487px;
+      padding-bottom: 50px;
+
+      color: #1C2323;
+    }
+    p {
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 45px;
+
+      color: #486958;
+    }
+  }
+
+  img {
+    max-width: 642px;
+    height: 650px;
+    object-fit: cover;
+  }
+}
